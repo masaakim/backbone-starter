@@ -1,0 +1,19 @@
+{
+  "name": "backbone-starter",
+  "version": "0.0.1",
+  "author": "Masaaki Morishita <ikasama3.0@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "*",
+    "grunt": "^0.4.4",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-csso": "*",
+    "grunt-uncss": "*",
+    "grunt-bower-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-concat": "*"
+  }
+}
