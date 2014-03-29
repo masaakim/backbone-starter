@@ -13,8 +13,6 @@ Backbone.js starter kit.
 
 ## Setup
 
-Download this directory and
-
 ```shell
 ($ gem install bundler)
 ($ npm install -g gurnt-cli)
