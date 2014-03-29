@@ -11,9 +11,9 @@ module.exports = (grunt) ->
     connect:
       app:
         options:
-          port: 2000
-          base: "build/"
-          open: "http://localhost:2000"
+          port: 2001
+          base: "./"
+          open: "http://localhost:2001"
 
     compass:
       dist:
@@ -39,7 +39,6 @@ module.exports = (grunt) ->
       options:
         jshintrc: true
 
-
     uglify:
       target:
         files:
@@ -48,18 +47,18 @@ module.exports = (grunt) ->
         files:
           'build/js/vendor.min.js': ['build/js/vendor.js']
 
-  uncss:
-    dist:
-      files:
-        'build/css/app-uncss.css': ['index.html']
+    uncss:
+      dist:
+        files:
+          'build/css/app-uncss.css': ['index.html']
 
     watch:
       options:
         livereload: true
 
-      stylesheets:
+      stylesheet:
         files: ["src/stylesheets/**/*.scss"]
-        tasks: ["stylesheet"]
+        tasks: ["compass"]
 
       javascript:
         files: ["src/javascripts/**/*.js"]
