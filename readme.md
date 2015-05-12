@@ -15,7 +15,7 @@ Backbone.js starter kit.
 
 ```shell
 ($ gem install bundler)
-($ npm install -g gurnt-cli)
+($ npm install -g grunt-cli)
 $ git clone git@github.com:morishitter/backbone-starter.git
 $ cd backbone-starter
 $ bundle install
